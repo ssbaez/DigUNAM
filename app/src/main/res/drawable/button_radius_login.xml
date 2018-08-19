@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@android:color/holo_orange_light"/>
+            <stroke android:color="#021261" android:width="3dp" />
+            <!--corners allow us to make the rounded corners button-->
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#977100"/>
+            <stroke android:color="#01082b" android:width="3dp" />
+            <!--corners allow us to make the rounded corners button-->
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+</selector>

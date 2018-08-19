@@ -1,0 +1,27 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ET_login" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/ets_login</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="BTN_login" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@android:color/holo_orange_light</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

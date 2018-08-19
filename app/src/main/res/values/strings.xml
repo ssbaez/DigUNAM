@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DigUNAM</string>
+    <string name="eth_cuenta">No. de cuenta</string>
+    <string name="eth_contraseña">Contraseña</string>
+    <string name="btn_login">INICIAR SESIÓN</string>
+    <string name="tv_crearCuenta">Crear cuenta</string>
+    <string name="tv_registroAlumnos">Registro para alumnos</string>
+    <string name="tv_comunidadExt">Acceso para comunidad externa</string>
+    <string name="tv_derechos">Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados 2018</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".LoginActivity">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_weight="0.5">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAlignment="center"
+             android:fontFamily="sans-serif-smallcaps"
+             android:padding="30dp"
+             android:text="INICIAR SESIÓN"
+             android:textColor="@android:color/white"
+             android:textSize="18dp"
+             android:textStyle="bold" />
+
+         <EditText
+             android:id="@+id/et_cuenta"
+             android:layout_gravity="center"
+             android:layout_width="250dp"
+             android:layout_height="wrap_content"
+             android:hint="@string/eth_cuenta"
+             android:textSize="15dp"
+             android:textColorHint="#71ffffff"
+             android:drawableLeft="@drawable/ic_action_id"
+             android:padding="8dp"
+             android:background="#1c242e"
+             android:inputType="number"
+             android:textColor="@android:color/white"/>
+
+         <EditText
+             android:id="@+id/et_pass"
+             android:layout_gravity="center"
+             android:layout_width="250dp"
+             android:layout_height="wrap_content"
+             android:hint="@string/eth_contraseña"
+             android:textColorHint="#71ffffff"
+             android:layout_marginTop="15dp"
+             android:textSize="15dp"
+             android:drawableLeft="@drawable/ic_action_pass"
+             android:padding="8dp"
+             android:background="#1c242e"
+             android:inputType="textPassword"
+             android:textColor="@android:color/white"/>
+
+     </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:id="@+id/iv_log2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/unam_azul"/>
+
+        <TextView
+            android:id="@+id/tv_derechos"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_log2"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tv_derechos"
+            android:textAllCaps="false"
+            android:textColor="#71ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pdn_horizontalLogin">32dp</dimen>
+    <dimen name="ets_login">17sp</dimen>
+</resources>
