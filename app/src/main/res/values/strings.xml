@@ -7,4 +7,9 @@
     <string name="tv_registroAlumnos">Registro para alumnos</string>
     <string name="tv_comunidadExt">Acceso para comunidad externa</string>
     <string name="tv_derechos">Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados 2018</string>
+    <string name="tvD_infoText">Necesitas tener creada una cuenta para iniciar la aplicación (Sólo Alumnos y ex-Alumnos)</string>
+    <string name="btn_crearCtA">CREAR CUENTA</string>
+    <string name="chbx_record">Recordarme</string>
+    <string name="tvD_forgotPass">¿Olvidaste tu Contraseña?</string>
+    <string name="btnD_entar">ENTRAR</string>
 </resources>
