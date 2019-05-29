@@ -20,6 +20,19 @@ public class MainActivity extends AppCompatActivity {
         Button btn = (Button) findViewById(R.id.btn_login);
 
 
+        View decorView = getWindow().getDecorView();
+        // Hide the status bar.
+        int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
+        decorView.setSystemUiVisibility(uiOptions);
+        // Remember that you should never show the action bar if the
+        // status bar is hidden, so hide that too if necessary.
+
+
+
+        decorView.setSystemUiVisibility(uiOptions);
+
+
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -8,6 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#096b30</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
     <style name="ET_login" parent="Theme.AppCompat">
         <item name="android:textColor">@color/colorAccent</item>
         <item name="android:textColorHint">@color/colorAccent</item>
